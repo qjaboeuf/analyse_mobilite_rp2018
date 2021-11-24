@@ -17,3 +17,6 @@ mkdir $DOC_DIR
 # copy files
 mc cp s3/fbedecarrats/diffusion/{FD_MOBPRO_2018.csv,commune2021.csv,Intercommunalite-Metropole_au_01-01-2021.xlsx,Varmod_MOBPRO_2018.csv} $DATA_DIR
 mc cp s3/fbedecarrats/diffusion/contenu_RP2018_mobpro.pdf $DOC_DIR
+
+# launch RStudio in the right project
+open analyse_mobilite_rp2018/analyse_mobilite_rp2018.Rproj
