@@ -19,4 +19,4 @@ mc cp s3/fbedecarrats/diffusion/{FD_MOBPRO_2018.csv,commune2021.csv,Intercommuna
 mc cp s3/fbedecarrats/diffusion/contenu_RP2018_mobpro.pdf $DOC_DIR
 
 # launch RStudio in the right project
-echo "open ~/home/rstudio/analyse_mobilite_rp2018/analyse_mobilite_rp2018.Rproj"
+echo "open /home/rstudio/analyse_mobilite_rp2018/analyse_mobilite_rp2018.Rproj"
