@@ -19,5 +19,14 @@ mc cp s3/fbedecarrats/diffusion/{FD_MOBPRO_2018.csv,commune2021.csv,Intercommuna
 mc cp s3/fbedecarrats/diffusion/contenu_RP2018_mobpro.pdf $DOC_DIR
 
 # launch RStudio in the right project
-# mv /home/rstudio/analyse_mobilite_rp2018/utils/.Rprofile /home/rstudio/.Rprofile
-# I give up on trying to open the right project for now.
+# Copied from InseeLab UtilitR
+    echo \
+    "
+    setHook('rstudio.sessionInit', function(newSession) {
+        if (newSession && identical(getwd(), path.expand('~')))
+        {
+            message('On charge directement le bon projet :-) ')
+            rstudioapi::openProject('~/analyse_mobilite_rp2018')
+            }
+            }, action = 'append')
+            " >> /home/rstudio/.Rprofile
