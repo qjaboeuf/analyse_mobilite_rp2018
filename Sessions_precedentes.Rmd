@@ -8,12 +8,19 @@ output: html_document
 
 # Session 1
 
-Présentation de l'interface
+## Présentation de l'interface https://juba.github.io/tidyverse/02-prise_en_main.html
+Revoir la console
+Les objets et vecteurs
 
+
+## Présentation des sources
 Intercommunalités : https://www.insee.fr/fr/information/2510634
 Communes : https://www.insee.fr/fr/information/5057840
-Flux : 
+Flux : https://www.insee.fr/fr/statistiques/5395749?sommaire=5395764
 
+
+# Import de fichiers
+https://juba.github.io/tidyverse/07-import.html
 
 ```{r}
 library(tidyverse)
@@ -44,3 +51,9 @@ sum(test$n)
 
 ```
 
+## Session 2
+GITer des résultats
+A rappeler
+la console
+Les vecteurs
+Les imports
