@@ -3,4 +3,5 @@
 .RData
 .Ruserdata
 data/.*
-Analyse_01.Rmd
+*.Rmd
+!Sessions_precedentes.Rmd
